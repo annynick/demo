@@ -106,6 +106,10 @@ section h2{
     width: 45%;
     float: left;
 }
+.activies h2,
+.skills h2{
+    width: 100%;
+}
 .activies{
     margin-right: 10%;
 }
@@ -120,4 +124,17 @@ section h2{
     display: inline-block;
     width:50%;
     float:left;
+    margin-bottom: 30px;
+}
+.skills:after{
+    content: "";
+    display: block;
+    clear: both; 
+}
+.skills .icon-add:before{
+    position: relative;
+    left: -20px;
+}
+.skills .skills-list{
+    padding-left:30px;
 }
