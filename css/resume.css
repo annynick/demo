@@ -38,6 +38,10 @@ header >.name{
     margin-left: 50px;
     margin-top: -5px;
 }
+header >.name a{
+    color: #333;
+    text-decoration: underline;
+}
 header >.contact{
     float: right;
     width: 300px;
@@ -96,7 +100,6 @@ section h2{
     position: relative;
     left: -105px;
     top: 13px;
-
 }
 .activies,
 .skills{
@@ -105,4 +108,16 @@ section h2{
 }
 .activies{
     margin-right: 10%;
+}
+.act-list{
+    padding-left: 100px;
+}
+.act-list .icon-add:before{
+    position: relative;
+    left: -105px;
+}
+.skills h4{
+    display: inline-block;
+    width:50%;
+    float:left;
 }
