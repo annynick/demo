@@ -1,0 +1,108 @@
+html,
+body,
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: #fff;
+    font-size: 14px;
+    font-family: "Arial","微软雅黑";
+    color: #333;
+}
+.layout{
+    width: 1000px;
+    margin: 0 auto;
+    background: #eee;
+}
+header{
+    padding: 30px;
+    padding-right: 0;
+}
+header >.logo{
+    float: left;
+}
+header >.logo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+header >.name{
+    float: left;
+    margin-left: 50px;
+    margin-top: -5px;
+}
+header >.contact{
+    float: right;
+    width: 300px;
+    margin-top: -20px;
+
+}
+header:after,
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+header >.contact h3{
+    text-transform: uppercase;
+    border-bottom:5px solid #000;
+    line-height: 50px;
+    font-size: 20px;
+}
+header >.contact b{
+    text-transform: capitalize;
+    font-size:16px;
+    display: inline-block;
+    width: 55px;
+    text-align: right;
+}
+section{
+    padding: 30px;
+    padding-right: 0;
+}
+section h2{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    width: 40%;
+
+}
+.work-list{
+    padding-left: 100px;
+    line-height: 2;
+    border-left: 1px solid #000;
+}
+.work-list h4{
+    color: #333;
+}
+.work-list h4 span{
+    color: #999;
+    padding-left: 5px;
+}
+
+.work-list h4:before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000;
+    position: relative;
+    left: -105px;
+    top: 13px;
+
+}
+.activies,
+.skills{
+    width: 45%;
+    float: left;
+}
+.activies{
+    margin-right: 10%;
+}
